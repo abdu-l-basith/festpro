@@ -38,19 +38,7 @@ export default function AssignDutiesPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-[#1a093f] text-white flex justify-between items-center px-6 py-3">
-        <h1 className="font-bold text-lg">Fest.pro</h1>
-        <div className="flex items-center gap-2">
-          <span className="hidden sm:block text-sm">
-            Zoub Muhammed <br />{" "}
-            <span className="text-xs">General Convenor</span>
-          </span>
-          <div className="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center">
-            <span className="text-black">👤</span>
-          </div>
-        </div>
-      </header>
+      
 
       {/* Content */}
       <main className="px-4 sm:px-10 py-6">

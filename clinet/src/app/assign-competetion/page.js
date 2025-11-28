@@ -13,21 +13,8 @@ export default function AssignCompetitions() {
   });
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-indigo-950 text-white px-6 py-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold">Fest.pro</h1>
-        <div className="flex items-center gap-4">
-          <div className="flex items-center gap-2">
-            <FaUserCircle className="text-xl" />
-            <div className="text-sm leading-tight">
-              <p className="font-medium">Zoub Muhammed</p>
-              <p className="text-xs text-gray-300">General Convener</p>
-            </div>
-          </div>
-          <FaBars className="text-xl cursor-pointer" />
-        </div>
-      </header>
+    <div className="min-h-screen bg-white">
+      
 
       {/* Content */}
       <main className="p-6">
